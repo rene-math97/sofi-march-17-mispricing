@@ -152,9 +152,9 @@ function renderScenario(key) {
 
   const metrics = [
     ['sc-cagr',        prev.revs[0] / BASE_REV / 1 - 1, sc.cagr,       (v) => fmt.pct(v)],
-    ['sc-fcf-margin',  prev.fcfs[4] / prev.revs[4],       sc.fcfEnd,     (v) => fmt.pct(v)],
+    ['sc-fcf-margin',  prev.nis[4] / prev.revs[4],        sc.niEnd,      (v) => fmt.pct(v)],
     ['sc-yr5-rev',     prev.revs[4], data.revs[4],  fmt.B],
-    ['sc-yr5-fcf',     prev.fcfs[4], data.fcfs[4],  fmt.B],
+    ['sc-yr5-fcf',     prev.nis[4],  data.nis[4],   fmt.B],
     ['sc-intrinsic',   prev.intrinsic, data.intrinsic, fmt.price],
     ['sc-target',      prev.target12m, data.target12m, fmt.price],
   ];
@@ -175,13 +175,13 @@ function renderScenario(key) {
     tbody.innerHTML = '';
     const YEARS = [2026, 2027, 2028, 2029, 2030];
     YEARS.forEach((yr, i) => {
-      const margin = BASE_FCF_M + (sc.fcfEnd - BASE_FCF_M) * ((i + 1) / 5);
+      const margin = BASE_NI_M + (sc.niEnd - BASE_NI_M) * ((i + 1) / 5);
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td>FY${yr}</td>
         <td>${fmt.B(data.revs[i])}</td>
         <td>${fmt.pct1(margin)}</td>
-        <td>${fmt.B(data.fcfs[i])}</td>
+        <td>${fmt.B(data.nis[i])}</td>
         <td>${fmt.B(data.pvs[i])}</td>
       `;
       tbody.appendChild(tr);
