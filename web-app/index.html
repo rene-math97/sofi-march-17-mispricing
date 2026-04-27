@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The March Mispricing — SOFI Investment Thesis</title>
+  <meta name="description" content="Long SoFi Technologies. Why the March 17, 2026 Muddy Waters short report misread the franchise — and what the Q1 2026 earnings setup looks like." />
+
+  <!-- Fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     NAV
+════════════════════════════════════════════════ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-label="SOFI thesis">
+        <rect width="28" height="28" rx="6" fill="#2E5BFF"/>
+        <path d="M7 8h14M7 14h9M7 20h12" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+      <span class="nav-brand">SOFI <span class="nav-badge">LONG</span></span>
+    </div>
+    <div class="nav-links">
+      <a href="#rebuttal">Rebuttal</a>
+      <a href="#dcf">Model</a>
+      <a href="#comps">Comps</a>
+      <a href="#catalysts">Catalysts</a>
+      <a href="#risks">Risks</a>
+      <a href="#recommendation" class="nav-cta">View Trade →</a>
+    </div>
+    <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero-eyebrow">
+      <span class="tag tag-red">LONG EQUITY</span>
+      <span class="tag tag-muted">DIGITAL BANKING</span>
+      <span class="tag tag-muted">APRIL 2026</span>
+    </div>
+
+    <div class="hero-ticker-row">
+      <span class="hero-ticker">NASDAQ: SOFI</span>
+      <div class="hero-price-pill">
+        <span class="hero-price-current">$18.44</span>
+        <span class="hero-price-arrow">→</span>
+        <span class="hero-price-target">$30.00</span>
+        <span class="hero-price-upside">+62.7%</span>
+      </div>
+    </div>
+
+    <h1 class="hero-title">The March<br/><em>Mispricing</em></h1>
+    <p class="hero-subtitle">Why the Muddy Waters Short Report Misread SoFi's Earnings Power</p>
+    <p class="hero-thesis-line">First nationally chartered consumer bank with crypto rails, priced like a stressed sub-prime lender after a 28-page short report that doesn't survive the GAAP reconciliation.</p>
+
+    <div class="hero-kpis">
+      <div class="kpi-card">
+        <div class="kpi-value">$1.0B</div>
+        <div class="kpi-label">Q4 2025 Revenue</div>
+        <div class="kpi-delta kpi-delta-good">+40% YoY · record quarter</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">13.7M</div>
+        <div class="kpi-label">Members</div>
+        <div class="kpi-delta kpi-delta-good">+35% YoY · 1.0M added in Q</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">$174M</div>
+        <div class="kpi-label">Q4 GAAP Net Income</div>
+        <div class="kpi-delta kpi-delta-good">record · 17.4% margin</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">$37.5B</div>
+        <div class="kpi-label">Deposit Base</div>
+        <div class="kpi-delta kpi-delta-good">97% direct-deposit</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">8 Q's</div>
+        <div class="kpi-label">GAAP Profitable</div>
+        <div class="kpi-delta kpi-delta-good">consecutive streak</div>
+      </div>
+    </div>
+
+    <a href="#rebuttal" class="hero-cta">Read the Rebuttal <span aria-hidden="true">↓</span></a>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     EXECUTIVE SUMMARY
+════════════════════════════════════════════════ -->
+<section class="section exec-summary" id="summary">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">The Thesis</span>
+      <h2>Variant Perception in Four Points</h2>
+    </div>
+    <div class="exec-bullets">
+      <div class="exec-bullet">
+        <div class="bullet-number">01</div>
+        <div class="bullet-content">
+          <h3>The Mispricing Event Was Not a Fundamental Event</h3>
+          <p>SoFi is down ~30% YTD because Muddy Waters published a 28-page short report on March 17, 2026 alleging "Enron-esque" off-balance-sheet structures and a 90% inflation of Adjusted EBITDA. Q4 2025 — reported six weeks earlier — was a record quarter with $1.0B revenue (+40% YoY), $174M GAAP net income (record), and 1M new members added. The fundamentals improved while the stock fell.</p>
+        </div>
+      </div>
+      <div class="exec-bullet">
+        <div class="bullet-number">02</div>
+        <div class="bullet-content">
+          <h3>The Allegations Don't Survive GAAP Reconciliation</h3>
+          <p>Eight consecutive quarters of GAAP-positive net income — including a record $174M in Q4 2025 — are not compatible with the alleged 90% EBITDA inflation. SoFi's Loan Platform Business is a standard originate-and-distribute model, structurally similar to bank mortgage securitization, with all loans sold pre-funded and properly disclosed. The "$312M unrecorded debt" claim contradicts disclosed 10-K balance sheet items. CEO Anthony Noto purchased stock during the drawdown.</p>
+        </div>
+      </div>
+      <div class="exec-bullet">
+        <div class="bullet-number">03</div>
+        <div class="bullet-content">
+          <h3>April 2026 Added Two New High-Margin Revenue Rails</h3>
+          <p>SoFi launched <strong>Big Business Banking</strong> and the <strong>SoFiUSD stablecoin</strong> in April 2026 — the first nationally chartered U.S. consumer bank to combine fiat and crypto banking on a single regulated platform. Initial enterprise partners include Cumberland, BitGo, Galaxy, B2C2, Wintermute, Mastercard. This reframes SoFi as crypto-rails infrastructure, not just consumer fintech, and is not in any sell-side model yet.</p>
+        </div>
+      </div>
+      <div class="exec-bullet">
+        <div class="bullet-number">04</div>
+        <div class="bullet-content">
+          <h3>Asymmetric Payoff — Bear Case Still Wins</h3>
+          <p>Base case 12-month target of $30 (+62.7%) on a 26% revenue CAGR, 20% terminal NI margin, and 32× terminal P/E — multiples that simply re-rate to fintech peer median (HOOD 40-50×, COIN 40-60×). Bull case $38 (+106%); bear case $21 (+14%) even with growth deceleration to 22%. The downside is structurally protected by an $825M FY2026 adj. NI guide (already disclosed) and a $37.5B deposit franchise.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     REFUTING MUDDY WATERS
+════════════════════════════════════════════════ -->
+<section class="section why-not-section" id="rebuttal">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">The Short Was Wrong</span>
+      <h2>Refuting Muddy Waters</h2>
+      <p class="section-desc">On March 17, 2026, Muddy Waters Research (Carson Block) published a short report titled "SOFI: A Financial Engineering Treadmill." The report drove the stock down ~30% YTD. The four central allegations and why each fails on the facts SoFi has already disclosed.</p>
+    </div>
+
+    <div class="versus-grid">
+      <div class="versus-card versus-card-crwd">
+        <div class="versus-ticker">MW</div>
+        <div class="versus-name">The Short Thesis</div>
+        <div class="versus-metrics">
+          <div class="versus-metric">
+            <span class="versus-metric-label">Adj. EBITDA inflation</span>
+            <span class="versus-metric-value versus-bad">~90% claimed</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">"Unrecorded" debt</span>
+            <span class="versus-metric-value versus-bad">$312M claimed</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">LPB framing</span>
+            <span class="versus-metric-value versus-bad">"Enron-esque"</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">Charge-off optics</span>
+            <span class="versus-metric-value versus-bad">"Hidden" via sales</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">Implied price</span>
+            <span class="versus-metric-value versus-bad">~$5</span>
+          </div>
+        </div>
+        <div class="versus-verdict versus-verdict-crwd">
+          A 28-page narrative attack pricing in catastrophic restatement, regulatory action, and franchise impairment.
+        </div>
+      </div>
+
+      <div class="versus-divider">
+        <div class="versus-vs">VS</div>
+      </div>
+
+      <div class="versus-card versus-card-sofi">
+        <div class="versus-ticker versus-ticker-sofi">SOFI</div>
+        <div class="versus-name">The Disclosed Reality</div>
+        <div class="versus-metrics">
+          <div class="versus-metric">
+            <span class="versus-metric-label">Q4 2025 GAAP NI</span>
+            <span class="versus-metric-value versus-good">$174M (record)</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">GAAP-profitable streak</span>
+            <span class="versus-metric-value versus-good">8 consecutive Q's</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">LPB revenue model</span>
+            <span class="versus-metric-value versus-good">Pre-sold, fee-based</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">Q4 personal loan charge-off</span>
+            <span class="versus-metric-value versus-good">2.80% (down YoY)</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">CEO action post-report</span>
+            <span class="versus-metric-value versus-good">Purchased stock</span>
+          </div>
+        </div>
+        <div class="versus-verdict versus-verdict-sofi">
+          GAAP profitability is the closing argument. You cannot fake eight consecutive quarters of audited net income with off-balance-sheet engineering.
+        </div>
+      </div>
+    </div>
+
+    <div class="vs-summary">
+      The strongest version of the Muddy Waters thesis is the LPB revenue-recognition critique. Even granting it: SoFi's <em>GAAP</em> net income — the audited bottom line that includes any LPB conservatism the SEC could ever impose — has been positive for eight straight quarters and reached a record $174M in Q4 2025. The short thesis requires that record GAAP earnings are themselves fabricated. That is a much harder claim than "EBITDA reconciliation is aggressive," and it is not what the report actually argues.
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     EARNINGS RE-RATING MODEL
+════════════════════════════════════════════════ -->
+<section class="section dcf-section" id="dcf">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Valuation</span>
+      <h2>5-Year Earnings Re-Rating Model</h2>
+      <p class="section-desc">12% cost of equity · Scenario-dependent terminal P/E · 1.5B diluted shares · Base year (FY2025): $3.58B revenue, 14.7% NI margin · 12-month PT assumes full convergence to intrinsic given catalyst-rich timeline (Q1 print, multiple earnings releases, MW headline fade)</p>
+    </div>
+
+    <div class="dcf-methodology">
+      <p><strong>Methodology:</strong> Project FY2026–FY2030 net income by applying scenario revenue CAGR and NI margin progression to FY2025 base. Discount each year's NI at 12% cost of equity. Add terminal value (Year 5 NI × scenario P/E multiple), present-valued at the same rate. Divide by 1.5B diluted shares for per-share intrinsic. 12-month target equals intrinsic — full convergence is appropriate when the catalyst path includes four earnings prints in the next twelve months and the central overhang is a short-seller narrative that fades with each beat.</p>
+    </div>
+
+    <!-- Scenario Toggles -->
+    <div class="scenario-toggles" role="tablist" aria-label="Scenarios">
+      <button class="scenario-btn scenario-btn--bull" role="tab" data-scenario="bull" aria-selected="false" aria-controls="scenario-panel">
+        <span class="scenario-icon">▲</span> Bull
+      </button>
+      <button class="scenario-btn scenario-btn--base active" role="tab" data-scenario="base" aria-selected="true" aria-controls="scenario-panel">
+        <span class="scenario-icon">●</span> Base
+      </button>
+      <button class="scenario-btn scenario-btn--bear" role="tab" data-scenario="bear" aria-selected="false" aria-controls="scenario-panel">
+        <span class="scenario-icon">▼</span> Bear
+      </button>
+    </div>
+
+    <!-- Scenario Panel -->
+    <div class="scenario-panel" id="scenario-panel" role="tabpanel">
+      <div class="scenario-headline">
+        <span class="scenario-name" id="sc-name">Base Case</span>
+        <span class="scenario-desc-text" id="sc-desc">26% revenue CAGR · NI margin expanding to 20% · 32× terminal P/E</span>
+      </div>
+
+      <div class="dcf-metrics">
+        <div class="dcf-metric">
+          <div class="dcf-metric-label">Revenue CAGR</div>
+          <div class="dcf-metric-value" id="sc-cagr">26%</div>
+        </div>
+        <div class="dcf-metric">
+          <div class="dcf-metric-label">Yr5 NI Margin</div>
+          <div class="dcf-metric-value" id="sc-fcf-margin">20%</div>
+        </div>
+        <div class="dcf-metric">
+          <div class="dcf-metric-label">Year 5 Revenue</div>
+          <div class="dcf-metric-value" id="sc-yr5-rev">$11.40B</div>
+        </div>
+        <div class="dcf-metric">
+          <div class="dcf-metric-label">Year 5 Net Income</div>
+          <div class="dcf-metric-value" id="sc-yr5-fcf">$2.28B</div>
+        </div>
+        <div class="dcf-metric dcf-metric--highlight">
+          <div class="dcf-metric-label">5-Year Intrinsic</div>
+          <div class="dcf-metric-value" id="sc-intrinsic">$30.00</div>
+          <div class="dcf-metric-sub" id="sc-intrinsic-upside">+62.7% vs. $18.44</div>
+        </div>
+        <div class="dcf-metric dcf-metric--primary">
+          <div class="dcf-metric-label">12-Month Target</div>
+          <div class="dcf-metric-value" id="sc-target">$30.00</div>
+          <div class="dcf-metric-sub" id="sc-target-upside">+62.7% upside</div>
+        </div>
+      </div>
+
+      <!-- Year-by-year table -->
+      <div class="dcf-table-wrap">
+        <table class="dcf-table" id="dcf-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Revenue</th>
+              <th>NI Margin</th>
+              <th>Net Income</th>
+              <th>PV of NI</th>
+            </tr>
+          </thead>
+          <tbody id="dcf-tbody">
+            <!-- filled by JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Visual price bar -->
+      <div class="price-bar-wrap">
+        <div class="price-bar-label">Price Spectrum</div>
+        <div class="price-bar-track">
+          <div class="price-bar-fill" id="price-bar-fill"></div>
+          <div class="price-bar-marker" id="price-bar-current" style="left:0%">
+            <span class="price-bar-tag">$18.44<br/>Current</span>
+          </div>
+          <div class="price-bar-marker price-bar-marker--target" id="price-bar-target" style="left:50%">
+            <span class="price-bar-tag">12m Target</span>
+          </div>
+          <div class="price-bar-marker price-bar-marker--intrinsic" id="price-bar-intrinsic" style="left:80%">
+            <span class="price-bar-tag">Intrinsic</span>
+          </div>
+        </div>
+        <div class="price-bar-endpoints">
+          <span>$10</span>
+          <span id="price-bar-max-label">$50</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     TRADING COMPS
+════════════════════════════════════════════════ -->
+<section class="section comps-section" id="comps">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Relative Valuation</span>
+      <h2>Trading Comps</h2>
+      <p class="section-desc">as of April 24, 2026 · NTM forward P/E uses consensus FY2026 adj. EPS · Banks/lenders use book-value framing as cross-check</p>
+    </div>
+
+    <div class="comps-table-wrap">
+      <table class="comps-table">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Mkt Cap</th>
+            <th>NTM P/E</th>
+            <th>P / Sales</th>
+            <th>P / Book</th>
+            <th>Rev Growth</th>
+            <th>Profile</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">HOOD</span> Robinhood</td>
+            <td>~$45B</td>
+            <td>~45×</td>
+            <td>~12×</td>
+            <td>~7×</td>
+            <td>+30%</td>
+            <td>Brokerage + crypto</td>
+          </tr>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">COIN</span> Coinbase</td>
+            <td>~$60B</td>
+            <td>~50×</td>
+            <td>~9×</td>
+            <td>~6×</td>
+            <td>+25%</td>
+            <td>Crypto exchange</td>
+          </tr>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">AFRM</span> Affirm</td>
+            <td>~$15B</td>
+            <td>~60×</td>
+            <td>~5×</td>
+            <td>~4×</td>
+            <td>+22%</td>
+            <td>BNPL lender</td>
+          </tr>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">UPST</span> Upstart</td>
+            <td>~$5B</td>
+            <td>~11×</td>
+            <td>~6×</td>
+            <td>~3×</td>
+            <td>+15%</td>
+            <td>AI personal lending</td>
+          </tr>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">LC</span> LendingClub</td>
+            <td>~$1.5B</td>
+            <td>~8×</td>
+            <td>~1.5×</td>
+            <td>~1.0×</td>
+            <td>+8%</td>
+            <td>Personal loan marketplace</td>
+          </tr>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">ALLY</span> Ally Financial</td>
+            <td>~$11B</td>
+            <td>~7×</td>
+            <td>~1.4×</td>
+            <td>~0.9×</td>
+            <td>+5%</td>
+            <td>Auto + traditional bank</td>
+          </tr>
+          <tr class="comps-row comps-row-median">
+            <td class="comps-ticker"><em>Fintech Cohort Median</em></td>
+            <td>—</td>
+            <td>~30×</td>
+            <td>~6×</td>
+            <td>~3.5×</td>
+            <td>+22%</td>
+            <td>—</td>
+          </tr>
+          <tr class="comps-row comps-row-sofi">
+            <td class="comps-ticker"><span class="ticker-badge ticker-badge-sofi">SOFI</span> <strong>SoFi</strong></td>
+            <td><strong>$23.5B</strong></td>
+            <td class="sofi-highlight"><strong>~31×</strong></td>
+            <td class="sofi-highlight"><strong>~3.4×</strong></td>
+            <td class="sofi-highlight"><strong>~1.4×</strong></td>
+            <td class="sofi-highlight positive"><strong>+30%</strong></td>
+            <td><strong>Chartered digital bank + Tech Platform</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="comps-footnote">
+      SoFi trades closer to LC/ALLY (mature lenders) on book-value and NTM P/E despite growing 30% — closer to HOOD/COIN/AFRM growth profile. The structural argument: SoFi has the rate-of-change of HOOD/COIN with the GAAP profitability and balance-sheet stability of ALLY. Re-rating to fintech cohort median NTM P/E (~30× → ~40×) on FY2026 adj. EPS of $0.60 implies ~$24; re-rating to HOOD parity (~45×) implies $27; re-rating with FY2027 EPS step-up (~$0.78) at 38× implies $30+. Multiples are illustrative aggregator-sourced as of late April 2026 — verify against Bloomberg/FactSet before trading.
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CATALYST TIMELINE
+════════════════════════════════════════════════ -->
+<section class="section catalyst-section" id="catalysts">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Catalyst Path</span>
+      <h2>Catalyst Timeline</h2>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item timeline-past">
+        <div class="timeline-dot timeline-dot-past"></div>
+        <div class="timeline-date">Jan 30, 2026</div>
+        <div class="timeline-content">
+          <h3>Q4 2025 Earnings — Record Quarter</h3>
+          <p>$1.0B revenue (+40% YoY), $174M GAAP net income (record), 13.7M members (+1.0M added in Q), $10.5B loan originations (+46% YoY), $37.5B deposits. Beat consensus EPS by ~18%. Issued FY2026 guide: ~$4.66B revenue (+30%), $1.6B adj. EBITDA, $0.60 adj. EPS.</p>
+          <span class="timeline-tag">FUNDAMENTAL ANCHOR</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-past timeline-item-red">
+        <div class="timeline-dot timeline-dot-red"></div>
+        <div class="timeline-date">Mar 17, 2026</div>
+        <div class="timeline-content">
+          <h3>Muddy Waters Short Report → Mispricing Event</h3>
+          <p>Carson Block's firm publishes 28-page short report alleging "Enron-esque" off-balance-sheet structures, ~90% Adj. EBITDA inflation, and $312M unrecorded debt. Stock falls from ~$26 to ~$16 over the following weeks. Mar 18: SoFi formally rebuts, threatens legal action. CEO Anthony Noto purchases stock during drawdown.</p>
+          <span class="timeline-tag timeline-tag-red">THE MISPRICING EVENT</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-past">
+        <div class="timeline-dot timeline-dot-past"></div>
+        <div class="timeline-date">Apr 2, 2026</div>
+        <div class="timeline-content">
+          <h3>Big Business Banking + SoFiUSD Stablecoin Launch</h3>
+          <p>SoFi becomes the first nationally chartered U.S. consumer bank to combine fiat and crypto banking on a single regulated platform. SoFiUSD stablecoin runs on Solana and other chains. Initial enterprise partners: Cumberland, BitGo, Galaxy, B2C2, Wintermute, Mastercard. New revenue stream, not in any consensus model yet.</p>
+          <span class="timeline-tag">NEW REVENUE RAIL</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-upcoming timeline-item-primary">
+        <div class="timeline-dot timeline-dot-primary"></div>
+        <div class="timeline-date">Apr 29, 2026</div>
+        <div class="timeline-content">
+          <h3>Q1 2026 Earnings — Primary Catalyst Check</h3>
+          <p>Pre-market Wednesday print. Consensus revenue ~$1.05B (+36% YoY); EPS $0.12 (matches company guide). Watch: member adds (does +30% YoY hold?), NIM trajectory (Q4 stepped down 12bps), personal-loan charge-off rate (the central MW battleground), Loan Platform Business volumes ($15B annualized run-rate), and management commentary on the short report.</p>
+          <span class="timeline-tag timeline-tag-primary">KEY PRINT</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-upcoming">
+        <div class="timeline-dot timeline-dot-upcoming"></div>
+        <div class="timeline-date">Jul 2026</div>
+        <div class="timeline-content">
+          <h3>Q2 2026 Earnings + Stablecoin Pipeline Update</h3>
+          <p>First post-launch read on enterprise stablecoin adoption. Tech Platform new-client revenue from Southwest, Wyndham, Mercantil partnerships starts to show in segment numbers. Continued beat-and-raise pattern would extend the streak to 17 of 25 reporting periods.</p>
+          <span class="timeline-tag">UPCOMING</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-future">
+        <div class="timeline-dot timeline-dot-future"></div>
+        <div class="timeline-date">2H 2026</div>
+        <div class="timeline-content">
+          <h3>Tech Platform Diversification Validation</h3>
+          <p>Galileo + Technisys segment revenue from non-fintech enterprise clients (airlines, hotels, regional banks) reaches a recognizable share of the $122M run-rate. Bears have flagged total enabled accounts decline (-1% YoY in Q3); this catalyst tests whether revenue-per-account expansion offsets it.</p>
+          <span class="timeline-tag">SEGMENT MIX</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-future">
+        <div class="timeline-dot timeline-dot-future"></div>
+        <div class="timeline-date">2027</div>
+        <div class="timeline-content">
+          <h3>NIM Expansion + Student Loan Refi Tailwind</h3>
+          <p>Fed cuts (~2 priced for 2026) reduce deposit cost faster than asset yield reset, supporting NIM. Stricter federal student-loan forgiveness criteria expand SoFi's refi addressable market. Student-loan originations were $1.9B in Q4 2025 (+38% YoY); structural ramp continues into 2027.</p>
+          <span class="timeline-tag">RATES + REFI</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     RISK MATRIX
+════════════════════════════════════════════════ -->
+<section class="section risk-section" id="risks">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Risk Assessment</span>
+      <h2>Risk Matrix</h2>
+    </div>
+
+    <div class="risk-grid">
+
+      <div class="risk-card risk-medium-high">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-mh">HIGH</span>
+        </div>
+        <h3>Continued Short-Seller Attacks</h3>
+        <p>Muddy Waters published a March 21 follow-up ("11 Questions, Zero Answers") and may extend the campaign. Other short-sellers may pile on. Sustained narrative attack can pressure the multiple even if fundamentals hold.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> Each clean GAAP earnings print is the strongest possible response. Q1 2026 (Apr 29), Q2 2026 (Jul), Q3 2026 (Oct) — three high-frequency catalysts to reset the narrative inside 12 months. CEO insider buying signals confidence; legal action threatened.
+        </div>
+      </div>
+
+      <div class="risk-card risk-medium-high">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-mh">MEDIUM-HIGH</span>
+        </div>
+        <h3>Personal Loan Charge-Off Acceleration</h3>
+        <p>Q4 2025 personal-loan charge-off was 2.80% (+20bps QoQ, though down -57bps YoY). MW alleges the $360M sale of delinquent loans in 2025 flatters the headline ratio. Acceleration into a consumer credit downturn would compress NIM and raise reserves.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> WAVG borrower FICO 746 / income $158k for personal loans (super-prime). Fed cut path in 2026 supports refinancing capacity. Even adjusted for loan sale, charge-off ratio remains within historical bands for super-prime panels.
+        </div>
+      </div>
+
+      <div class="risk-card risk-medium">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-m">MEDIUM</span>
+        </div>
+        <h3>Deposit Cost Competition</h3>
+        <p>HYSA wars intensifying — Marcus, Wealthfront, Robinhood Gold, Apple Card Savings all paying competitive rates. Cost of deposits rising could pressure NIM (already stepped down 12bps in Q4).</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> 97% direct-deposit customer base = highly sticky relationships. $37.5B deposit base growing sequentially. Cross-sell to higher-margin products (Invest, Credit Card, Money) offsets pure deposit-cost margin pressure.
+        </div>
+      </div>
+
+      <div class="risk-card risk-medium">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-m">MEDIUM</span>
+        </div>
+        <h3>Tech Platform Client Churn</h3>
+        <p>Galileo enabled-accounts -1% YoY in Q3 2025. Bears argue revenue growth comes from repricing existing clients, not net new logos. Fintech sector consolidation could accelerate client losses.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> Q1 2026 added ~10 new revenue-contributing clients vs. Q1 2025. Diversification beyond fintech (Southwest, Wyndham, Mercantil) opens larger TAM. Stablecoin infrastructure adds new monetization layer on existing accounts.
+        </div>
+      </div>
+
+      <div class="risk-card risk-low-medium">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-lm">LOW-MEDIUM</span>
+        </div>
+        <h3>Regulatory Scrutiny on Crypto</h3>
+        <p>SoFiUSD stablecoin and crypto-rails strategy depend on continued OCC clarity around chartered banks holding crypto. Regulatory reversal would force divestiture or spin-out of the stablecoin franchise.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> SoFi's national bank charter (held since 2022) is the differentiator — competitive moat versus unchartered fintechs. Nov 2025 regulatory changes already enabled crypto re-launch; political backdrop is constructive. Stablecoin is fully reserved and runs in the regulated bank.
+        </div>
+      </div>
+
+      <div class="risk-card risk-low">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-l">LOW</span>
+        </div>
+        <h3>Macro Rate Path Divergence</h3>
+        <p>Market pricing 2 Fed cuts in 2026 starting June; dot-plot only 1. Faster cuts compress NIM; slower cuts compress lending demand. Either tail outcome creates noise.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> SoFi's revenue mix is diversified across rate-sensitive (lending NIM) and rate-insensitive (Tech Platform fees, brokerage, interchange, stablecoin enterprise revenue). Fee-based revenue 44% of adj. revenue — significant insulation.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     RECOMMENDATION FOOTER CARD
+════════════════════════════════════════════════ -->
+<section class="section recommendation-section" id="recommendation">
+  <div class="container">
+    <div class="rec-card">
+      <div class="rec-badge">RECOMMENDATION</div>
+      <div class="rec-main">
+        <div class="rec-action">LONG SOFI</div>
+        <div class="rec-target-row">
+          <div class="rec-metric">
+            <div class="rec-metric-val">$30.00</div>
+            <div class="rec-metric-label">12-Month Target</div>
+          </div>
+          <div class="rec-divider-v"></div>
+          <div class="rec-metric">
+            <div class="rec-metric-val rec-upside">+62.7%</div>
+            <div class="rec-metric-label">Upside</div>
+          </div>
+          <div class="rec-divider-v"></div>
+          <div class="rec-metric">
+            <div class="rec-metric-val">$38.00</div>
+            <div class="rec-metric-label">Bull Case Target</div>
+          </div>
+          <div class="rec-divider-v"></div>
+          <div class="rec-metric">
+            <div class="rec-metric-val rec-bear">$21.00</div>
+            <div class="rec-metric-label">Bear Case Target</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rec-catalyst-check">
+        <div class="rec-check-header">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          Primary Catalyst Check — Q1 2026 Earnings (Apr 29, 2026, pre-market)
+        </div>
+        <p>Confirm member adds &gt;1M (extends streak), NIM holds within 5–25bps step-down range, personal-loan charge-off ratio stays sub-3.0%, and management directly addresses the Muddy Waters allegations with specific reconciliations rather than a procedural denial. A clean print is the fastest path to multiple re-rating; a soft print on charge-offs or LPB volumes would warrant reassessment.</p>
+      </div>
+
+      <div class="rec-methodology">
+        12-month target equals 5-year intrinsic value (full convergence) — appropriate when the catalyst path includes four earnings prints in the next twelve months and the central overhang is a short-seller narrative that fades with each clean GAAP beat. Cost of equity: 12% · Terminal P/E (base): 32× · Diluted Shares: ~1.5B · Base year FY2025: $3.58B revenue, $525M GAAP NI estimated.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     PAGE FOOTER
+════════════════════════════════════════════════ -->
+<footer class="page-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-disclaimer">
+        <strong>Disclaimer:</strong> This analysis is produced for informational purposes only and does not constitute investment advice or an offer to buy or sell any security. The author may hold positions in securities mentioned. Financial data sourced from SoFi Q4 2025 earnings release and investor presentation, SoFi 10-K filings, public market data as of April 24, 2026, and aggregator sources where flagged in footnotes. Comp multiples are illustrative and should be verified against Bloomberg / FactSet before any trading decision. DCF assumptions are scenario-based; actual results may differ materially.
+      </div>
+      <div class="footer-sources">
+        Sources: <a href="https://s27.q4cdn.com/749715820/files/doc_financials/2025/q4/2025-Q4-Earnings-Release.pdf" target="_blank" rel="noopener">SoFi Q4 2025 Release</a> · <a href="https://s27.q4cdn.com/749715820/files/doc_financials/2025/q4/2025-Q4-Investor-Presentation-vFINAL.pdf" target="_blank" rel="noopener">Q4 2025 Investor Deck</a> · <a href="https://muddywatersresearch.com/research/2026/mw-short-0317/" target="_blank" rel="noopener">Muddy Waters Report (Mar 17, 2026)</a> · <a href="https://investors.sofi.com/news/news-details/2026/SoFi-Responds-to-Inaccurate-Short-Seller-Report/default.aspx" target="_blank" rel="noopener">SoFi Response (Mar 18, 2026)</a> · <a href="https://investors.sofi.com/news/news-details/2026/SoFi-Launches-Big-Business-Banking-to-Power-Fiat-and-Crypto-Banking-on-a-Single-Regulated-Platform/default.aspx" target="_blank" rel="noopener">Big Business Banking + SoFiUSD Launch</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
