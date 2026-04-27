@@ -588,11 +588,15 @@ a:hover { color: var(--color-primary-hover); }
   color: var(--color-text);
 }
 
-.scenario-btn--bull.active,
-.scenario-btn--bull:hover { border-color: var(--color-bull); color: var(--color-bull); background: rgba(76,175,125,0.08); }
-.scenario-btn--base.active  { border-color: var(--color-base); color: var(--color-base); background: var(--sofi-blue-dim); }
-.scenario-btn--bear.active,
-.scenario-btn--bear:hover { border-color: var(--color-bear); color: var(--color-bear); background: rgba(244,163,50,0.08); }
+/* Inactive hover hints — give every button visual feedback on hover */
+.scenario-btn--bull:hover { border-color: var(--color-bull); color: var(--color-bull); }
+.scenario-btn--base:hover { border-color: var(--color-base); color: var(--color-base); }
+.scenario-btn--bear:hover { border-color: var(--color-bear); color: var(--color-bear); }
+
+/* Active states — filled backgrounds with white text for unambiguous selection */
+.scenario-btn--bull.active { border-color: var(--color-bull); color: #fff; background: var(--color-bull); }
+.scenario-btn--base.active { border-color: var(--color-base); color: #fff; background: var(--color-base); }
+.scenario-btn--bear.active { border-color: var(--color-bear); color: #fff; background: var(--color-bear); }
 
 .scenario-icon { font-size: 10px; }
 

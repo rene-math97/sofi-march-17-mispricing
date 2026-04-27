@@ -4,9 +4,9 @@ A long-equity thesis on SoFi Technologies (NASDAQ: SOFI) ahead of Q1 2026 earnin
 
 **Live site:** https://rene-math97.github.io/sofi-march-17-mispricing/
 
-**12-month target:** $30 (+62.7% from $18.44)
-**Bull case:** $38 (+106%)
-**Bear case:** $21 (+14%)
+**12-month target:** $28 (+51.8% from $18.44)
+**Bull case:** $35 (+90%)
+**Bear case:** $20 (+11%)
 
 **Thesis in one line:** SoFi sold off ~30% YTD on a March 17, 2026 Muddy Waters short report alleging "Enron-esque" off-balance-sheet engineering. Eight consecutive quarters of GAAP-positive net income — including a record $174M in Q4 2025 — are the closing argument the report cannot answer.
 
@@ -37,9 +37,9 @@ April 2026 launches that aren't in any sell-side model:
 - **SoFiUSD stablecoin** — runs on Solana and other chains. Initial enterprise partners: Cumberland, BitGo, Galaxy, B2C2, Wintermute, Mastercard.
 
 ### Asymmetric payoff
-- **Bull:** $38 (+106%) — re-rating to fintech cohort multiple after MW fades + stablecoin enterprise pipeline
-- **Base:** $30 (+62.7%) — current trajectory + modest multiple expansion
-- **Bear:** $21 (+14%) — growth decelerates to 22%, multiple stays compressed
+- **Bull:** $35 (+90%) — re-rating to HOOD-parity multiple (45× forward) after MW fades + stablecoin enterprise pipeline scaling
+- **Base:** $28 (+51.8%) — re-rating to 36× forward FY2027 EPS of $0.78 — premium to mature lenders, discount to brokers
+- **Bear:** $20 (+11%) — multiple stays compressed at ~30×, growth decelerates to 20%
 
 DCF assumptions (revenue CAGR, NI margin progression, terminal P/E) are spelled out in the model section of the web app.
 

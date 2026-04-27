@@ -54,8 +54,8 @@ const CONV       = 1.00;
 const SCENARIOS = {
   bull: {
     label:    'Bull Case',
-    desc:     '28% revenue CAGR · NI margin expanding to 21% · 35× terminal P/E',
-    cagr:     0.28,
+    desc:     '26% revenue CAGR · NI margin expanding to 21% · 35× terminal P/E (HOOD parity)',
+    cagr:     0.26,
     niEnd:    0.21,
     tvMult:   35,
     color:    'bull',
@@ -63,8 +63,8 @@ const SCENARIOS = {
   },
   base: {
     label:    'Base Case',
-    desc:     '26% revenue CAGR · NI margin expanding to 20% · 32× terminal P/E',
-    cagr:     0.26,
+    desc:     '24% revenue CAGR · NI margin expanding to 20% · 32× terminal P/E (premium to lenders)',
+    cagr:     0.24,
     niEnd:    0.20,
     tvMult:   32,
     color:    'base',
@@ -72,10 +72,10 @@ const SCENARIOS = {
   },
   bear: {
     label:    'Bear Case',
-    desc:     '22% revenue CAGR · NI margin expanding to 18% · 28× terminal P/E',
-    cagr:     0.22,
+    desc:     '20% revenue CAGR · NI margin expanding to 18% · 30× terminal P/E (multiple stays compressed)',
+    cagr:     0.20,
     niEnd:    0.18,
-    tvMult:   28,
+    tvMult:   30,
     color:    'bear',
     panelClass: 'scenario-bear',
   },
