@@ -49,7 +49,7 @@ const BASE_NI_M  = 0.147;
 const SHARES     = 1_500_000_000;
 const NET_CASH   = 0;
 const CUR_PRICE  = 18.44;
-const CONV       = 1.00;
+const CONV       = 0.70;
 
 const SCENARIOS = {
   bull: {

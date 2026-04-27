@@ -4,9 +4,10 @@ A long-equity thesis on SoFi Technologies (NASDAQ: SOFI) ahead of Q1 2026 earnin
 
 **Live site:** https://rene-math97.github.io/sofi-march-17-mispricing/
 
-**12-month target:** $28.37 (+53.9% from $18.44)
-**Bull case:** $34.85 (+89.0%)
-**Bear case:** $20.67 (+12.1%)
+**12-month target:** $25.39 (+37.7% from $18.44)
+**Bull case 12m:** $29.93 (+62.3%)
+**Bear case 12m:** $20.00 (+8.5%)
+**5-year intrinsic (base):** $28.37 (+53.9%) — 12-month target reflects 70% partial convergence
 
 **Thesis in one line:** SoFi sold off ~30% YTD on a March 17, 2026 Muddy Waters short report alleging "Enron-esque" off-balance-sheet engineering. Eight consecutive quarters of GAAP-positive net income — including a record $174M in Q4 2025 — are the closing argument the report cannot answer.
 
@@ -36,10 +37,12 @@ April 2026 launches that aren't in any sell-side model:
 - **SoFi Big Business Banking** — first nationally chartered U.S. consumer bank to combine fiat and crypto banking on a single regulated platform.
 - **SoFiUSD stablecoin** — runs on Solana and other chains. Initial enterprise partners: Cumberland, BitGo, Galaxy, B2C2, Wintermute, Mastercard.
 
-### Asymmetric payoff
-- **Bull:** $34.85 (+89.0%) — re-rating to HOOD-parity multiple (35× terminal P/E) after MW fades + stablecoin enterprise pipeline scaling
-- **Base:** $28.37 (+53.9%) — 32× terminal P/E, premium to mature lenders, discount to brokers
-- **Bear:** $20.67 (+12.1%) — multiple stays compressed at 30×, growth decelerates to 20%
+### Asymmetric payoff (12-month targets)
+- **Bull:** $29.93 (+62.3%) — re-rating to HOOD-parity multiple (35× terminal P/E) after MW fades + stablecoin enterprise pipeline scaling. 5-year intrinsic $34.85.
+- **Base:** $25.39 (+37.7%) — 32× terminal P/E, premium to mature lenders, discount to brokers. 5-year intrinsic $28.37.
+- **Bear:** $20.00 (+8.5%) — multiple stays compressed at 30×, growth decelerates to 20%. 5-year intrinsic $20.67.
+
+12-month targets use 70% partial convergence to 5-year intrinsic — standard buy-side convention reflecting that even fundamentally mispriced stocks rarely close the full discount in one year.
 
 DCF assumptions (revenue CAGR, NI margin progression, terminal P/E) are spelled out in the model section of the web app.
 

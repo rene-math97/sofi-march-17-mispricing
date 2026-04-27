@@ -9,7 +9,7 @@
   <!-- Fonts -->
   <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
 </head>
 <body>
 
@@ -56,8 +56,8 @@
       <div class="hero-price-pill">
         <span class="hero-price-current">$18.44</span>
         <span class="hero-price-arrow">→</span>
-        <span class="hero-price-target">$28.37</span>
-        <span class="hero-price-upside">+53.9%</span>
+        <span class="hero-price-target">$25.39</span>
+        <span class="hero-price-upside">+37.7%</span>
       </div>
     </div>
 
@@ -132,7 +132,7 @@
         <div class="bullet-number">04</div>
         <div class="bullet-content">
           <h3>Asymmetric Payoff — Bear Case Still Wins</h3>
-          <p>Base case 12-month target of $28.37 (+53.9%) on a 24% revenue CAGR, 20% terminal NI margin, and 32× terminal P/E — premium to mature lenders (LC ~8×, ALLY ~7×) but discount to brokers (HOOD ~45×, COIN ~50×) given residual consumer credit risk. Bull case $34.85 (+89.0%) at HOOD parity; bear case $20.67 (+12.1%) even with growth deceleration to 20%. The downside is structurally protected by an $825M FY2026 adj. NI guide (already disclosed) and a $37.5B deposit franchise.</p>
+          <p>Base case 12-month target of $25.39 (+37.7%) on a 24% revenue CAGR, 20% terminal NI margin, and 32× terminal P/E — premium to mature lenders (LC ~8×, ALLY ~7×) but discount to brokers (HOOD ~45×, COIN ~50×) given residual consumer credit risk. Bull case $29.93 (+62.3%) at HOOD parity; bear case $20.00 (+8.5%) even with growth deceleration to 20%. 5-year intrinsic values (full re-rating) are $28.37 / $34.85 / $20.67 respectively — 12-month targets assume 70% convergence to intrinsic, leaving room for the multi-year ramp to play out.</p>
         </div>
       </div>
     </div>
@@ -230,11 +230,11 @@
     <div class="section-header">
       <span class="section-label">Valuation</span>
       <h2>5-Year Earnings Re-Rating Model</h2>
-      <p class="section-desc">12% cost of equity · Scenario-dependent terminal P/E · 1.5B diluted shares · Base year (FY2025): $3.58B revenue, 14.7% NI margin · 12-month PT assumes full convergence to intrinsic given catalyst-rich timeline (Q1 print, multiple earnings releases, MW headline fade)</p>
+      <p class="section-desc">12% cost of equity · Scenario-dependent terminal P/E · 1.5B diluted shares · Base year (FY2025): $3.58B revenue, 14.7% NI margin · 12-month target assumes 70% convergence to 5-year intrinsic value (standard buy-side partial-convergence convention)</p>
     </div>
 
     <div class="dcf-methodology">
-      <p><strong>Methodology:</strong> Project FY2026–FY2030 net income by applying scenario revenue CAGR and NI margin progression to FY2025 base. Discount each year's NI at 12% cost of equity. Add terminal value (Year 5 NI × scenario P/E multiple), present-valued at the same rate. Divide by 1.5B diluted shares for per-share intrinsic. 12-month target equals intrinsic — full convergence is appropriate when the catalyst path includes four earnings prints in the next twelve months and the central overhang is a short-seller narrative that fades with each beat.</p>
+      <p><strong>Methodology:</strong> Project FY2026–FY2030 net income by applying scenario revenue CAGR and NI margin progression to FY2025 base. Discount each year's NI at 12% cost of equity. Add terminal value (Year 5 NI × scenario P/E multiple), present-valued at the same rate. Divide by 1.5B diluted shares for per-share intrinsic. 12-month target = current price + 70% × (intrinsic − current price), reflecting that even fundamentally mispriced stocks rarely close the full discount in one year — the catalyst-rich timeline (four earnings prints, MW headline fade, stablecoin scaling) supports an above-average convergence rate but not full.</p>
     </div>
 
     <!-- Scenario Toggles -->
@@ -281,8 +281,8 @@
         </div>
         <div class="dcf-metric dcf-metric--primary">
           <div class="dcf-metric-label">12-Month Target</div>
-          <div class="dcf-metric-value" id="sc-target">$28.37</div>
-          <div class="dcf-metric-sub" id="sc-target-upside">+53.9% upside</div>
+          <div class="dcf-metric-value" id="sc-target">$25.39</div>
+          <div class="dcf-metric-sub" id="sc-target-upside">+37.7% upside</div>
         </div>
       </div>
 
@@ -614,23 +614,23 @@
         <div class="rec-action">LONG SOFI</div>
         <div class="rec-target-row">
           <div class="rec-metric">
-            <div class="rec-metric-val">$28.37</div>
+            <div class="rec-metric-val">$25.39</div>
             <div class="rec-metric-label">12-Month Target</div>
           </div>
           <div class="rec-divider-v"></div>
           <div class="rec-metric">
-            <div class="rec-metric-val rec-upside">+53.9%</div>
+            <div class="rec-metric-val rec-upside">+37.7%</div>
             <div class="rec-metric-label">Upside</div>
           </div>
           <div class="rec-divider-v"></div>
           <div class="rec-metric">
-            <div class="rec-metric-val">$34.85</div>
-            <div class="rec-metric-label">Bull Case Target</div>
+            <div class="rec-metric-val">$29.93</div>
+            <div class="rec-metric-label">Bull Case 12m Target</div>
           </div>
           <div class="rec-divider-v"></div>
           <div class="rec-metric">
-            <div class="rec-metric-val rec-bear">$20.67</div>
-            <div class="rec-metric-label">Bear Case Target</div>
+            <div class="rec-metric-val rec-bear">$20.00</div>
+            <div class="rec-metric-label">Bear Case 12m Target</div>
           </div>
         </div>
       </div>
@@ -644,7 +644,7 @@
       </div>
 
       <div class="rec-methodology">
-        12-month target equals 5-year intrinsic value (full convergence) — appropriate when the catalyst path includes four earnings prints in the next twelve months and the central overhang is a short-seller narrative that fades with each clean GAAP beat. Cost of equity: 12% · Terminal P/E (base): 32× · Diluted Shares: ~1.5B · Base year FY2025: $3.58B revenue, $525M GAAP NI estimated.
+        12-month target = current price + 70% × (5-year intrinsic − current price) — standard buy-side partial-convergence convention reflecting that even fundamentally mispriced stocks rarely close the full discount in one year. Cost of equity: 12% · Terminal P/E (base): 32× · Diluted Shares: ~1.5B · Base year FY2025: $3.58B revenue, $525M GAAP NI estimated.
       </div>
     </div>
   </div>
@@ -666,6 +666,6 @@
   </div>
 </footer>
 
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>
